@@ -31,7 +31,6 @@ public class Chat implements Serializable {
     @ApiModelProperty(value = "正文")
     private String text;
 
-
     // 聊天类型 1-私聊 2-群聊
     @ApiModelProperty(value = "聊天类型")
     private Integer chatType;
