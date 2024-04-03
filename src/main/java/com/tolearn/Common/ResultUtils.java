@@ -1,4 +1,4 @@
-package com.tolearn.common;
+package com.tolearn.Common;
 
 /**
  * 返回工具类

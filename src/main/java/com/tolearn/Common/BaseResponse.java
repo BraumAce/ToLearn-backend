@@ -1,4 +1,4 @@
-package com.tolearn.common;
+package com.tolearn.Common;
 
 import io.swagger.annotations.ApiModelProperty;
 import lombok.Data;
