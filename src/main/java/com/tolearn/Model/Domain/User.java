@@ -53,7 +53,6 @@ public class User implements Serializable {
     @ApiModelProperty(value = "好友id")
     private String friendIds;
 
-
     /// 用户角色 0-普通用户,1-管理员
     @ApiModelProperty(value = "用户角色 0-普通用户,1-管理员")
     private Integer role;
