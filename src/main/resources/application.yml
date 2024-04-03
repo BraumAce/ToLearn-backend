@@ -9,8 +9,8 @@ spring:
     active: dev
   #数据库配置
   datasource:
-    driver-class-name: com.mysql.jdbc.Driver
-    url: jdbc:mysql://localhost:3306/tolearn?serverTimezone=Asia/Shanghai
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/to_learn?serverTimezone=Asia/Shanghai
     username: root
     password: 123456
   #session失效时间
@@ -63,10 +63,11 @@ knife4j:
   enable: true
   openapi:
     title: ToLearn接口文档
-    description: "用户匹配系统"
+    description: "ToLearn用户匹配系统"
     email: 1693717911@qq.com
-    version: v2.0.0
-    concat: OchiaMalu
+    version: v4.0
+    license: Apache 2.0
+    concat: BraumAce
     group:
       ToLearn:
         group-name: ToLearn
