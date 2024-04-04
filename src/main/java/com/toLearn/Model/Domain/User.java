@@ -1,4 +1,4 @@
-package com.tolearn.Model.Domain;
+package com.toLearn.Model.Domain;
 
 import com.baomidou.mybatisplus.annotation.*;
 import io.swagger.annotations.ApiModel;
