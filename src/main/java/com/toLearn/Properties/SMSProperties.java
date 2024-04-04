@@ -1,4 +1,4 @@
-package com.tolearn.Properties;
+package com.toLearn.Properties;
 
 import lombok.Data;
 import org.springframework.boot.context.properties.ConfigurationProperties;
