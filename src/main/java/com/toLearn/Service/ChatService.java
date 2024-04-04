@@ -1,10 +1,10 @@
-package com.tolearn.Service;
+package com.toLearn.Service;
 
 import com.baomidou.mybatisplus.extension.service.IService;
-import com.tolearn.Model.Domain.Chat;
-import com.tolearn.Model.Domain.User;
-import com.tolearn.Model.Request.ChatRequest;
-import com.tolearn.Model.VO.ChatMessageVO;
+import com.toLearn.Model.Domain.Chat;
+import com.toLearn.Model.Domain.User;
+import com.toLearn.Model.Request.ChatRequest;
+import com.toLearn.Model.VO.ChatMessageVO;
 
 import java.util.Date;
 import java.util.List;
