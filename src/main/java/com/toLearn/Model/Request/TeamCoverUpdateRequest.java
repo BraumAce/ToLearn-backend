@@ -1,4 +1,4 @@
-package com.tolearn.Model.Request;
+package com.toLearn.Model.Request;
 
 import io.swagger.annotations.ApiModel;
 import io.swagger.annotations.ApiModelProperty;
@@ -6,7 +6,7 @@ import lombok.Data;
 import org.springframework.web.multipart.MultipartFile;
 
 /**
- * 团队封面更新请求
+ * 队伍封面更新请求
  * @author BraumAce
  */
 @Data
