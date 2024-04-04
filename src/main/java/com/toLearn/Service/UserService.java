@@ -1,11 +1,11 @@
-package com.tolearn.Service;
+package com.toLearn.Service;
 
 import com.baomidou.mybatisplus.extension.plugins.pagination.Page;
 import com.baomidou.mybatisplus.extension.service.IService;
-import com.tolearn.Model.Domain.User;
-import com.tolearn.Model.Request.UserRegisterRequest;
-import com.tolearn.Model.Request.UserUpdateRequest;
-import com.tolearn.Model.VO.UserVO;
+import com.toLearn.Model.Domain.User;
+import com.toLearn.Model.Request.UserRegisterRequest;
+import com.toLearn.Model.Request.UserUpdateRequest;
+import com.toLearn.Model.VO.UserVO;
 
 import javax.servlet.http.HttpServletRequest;
 import java.util.List;
