@@ -16,7 +16,7 @@ import java.util.Set;
 public interface FriendsService extends IService<Friends> {
 
     /**
-     * 好友申请
+     * 添加好友记录
      *
      * @param loginUser        登录用户
      * @param friendAddRequest 好友添加请求
