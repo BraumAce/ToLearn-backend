@@ -11,6 +11,7 @@ import java.util.Set;
 
 /**
  * 好友服务
+ * @author BraumAce
  */
 public interface FriendsService extends IService<Friends> {
 
