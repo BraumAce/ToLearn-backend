@@ -1,10 +1,10 @@
-package com.tolearn.Service;
+package com.toLearn.Service;
 
 import com.baomidou.mybatisplus.extension.plugins.pagination.Page;
 import com.baomidou.mybatisplus.extension.service.IService;
-import com.tolearn.Model.Domain.Follow;
-import com.tolearn.Model.Domain.User;
-import com.tolearn.Model.VO.UserVO;
+import com.toLearn.Model.Domain.Follow;
+import com.toLearn.Model.Domain.User;
+import com.toLearn.Model.VO.UserVO;
 
 import java.util.List;
 
