@@ -64,10 +64,10 @@ public interface ChatService extends IService<Chat> {
     void deleteKey(String key, String id);
 
     /**
-     * 获取团队聊天
+     * 获取队伍聊天
      *
      * @param chatRequest 聊天请求
-     * @param teamChat    团队聊天
+     * @param teamChat    队伍聊天
      * @param loginUser   登录用户
      * @return {@link List}<{@link ChatMessageVO}>
      */
