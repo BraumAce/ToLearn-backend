@@ -1,4 +1,4 @@
-package com.tolearn.Model.Request;
+package com.toLearn.Model.Request;
 
 import io.swagger.annotations.ApiModel;
 import io.swagger.annotations.ApiModelProperty;
