@@ -5,6 +5,7 @@ import com.tolearn.Model.Domain.Tag;
 
 /**
 * 标签服务
+ * @author BraumAce
 */
 public interface TagService extends IService<Tag> {
 
