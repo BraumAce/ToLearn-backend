@@ -23,7 +23,7 @@ public interface FollowService extends IService<Follow> {
     void followUser(Long followUserId, Long userId);
 
     /**
-     * 关注我的粉丝
+     * 关注我的粉丝列表
      *
      * @param userId 用户id
      * @return {@link List}<{@link UserVO}>
@@ -31,7 +31,7 @@ public interface FollowService extends IService<Follow> {
     List<UserVO> listFans(Long userId);
 
     /**
-     * 我关注的人
+     * 我关注的人列表
      *
      * @param userId 用户id
      * @return {@link List}<{@link UserVO}>
