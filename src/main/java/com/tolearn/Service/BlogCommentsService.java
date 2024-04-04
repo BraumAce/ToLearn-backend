@@ -11,6 +11,7 @@ import java.util.List;
 
 /**
  * 博文评论服务
+ * @author BraumAce
  */
 public interface BlogCommentsService extends IService<BlogComments> {
 
