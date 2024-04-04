@@ -1,7 +1,7 @@
-package com.tolearn.Service;
+package com.toLearn.Service;
 
 import com.baomidou.mybatisplus.extension.service.IService;
-import com.tolearn.Model.Domain.BlogLike;
+import com.toLearn.Model.Domain.BlogLike;
 
 /**
  * 博文点赞服务
