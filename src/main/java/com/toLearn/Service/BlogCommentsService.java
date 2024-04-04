@@ -60,7 +60,7 @@ public interface BlogCommentsService extends IService<BlogComments> {
     void deleteComment(Long id, Long userId, boolean isAdmin);
 
     /**
-     * 列出我评论
+     * 列出我的评论
      *
      * @param id id
      * @return {@link List}<{@link BlogCommentsVO}>
@@ -68,7 +68,7 @@ public interface BlogCommentsService extends IService<BlogComments> {
     List<BlogCommentsVO> listMyComments(Long id);
 
     /**
-     * 分页我评论
+     * 分页我的评论
      *
      * @param id          id
      * @param currentPage 当前页码
