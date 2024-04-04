@@ -24,7 +24,7 @@ public interface BlogService extends IService<Blog> {
     Long addBlog(BlogAddRequest blogAddRequest, User loginUser);
 
     /**
-     * 列出我博客
+     * 列出我的博客
      *
      * @param currentPage 当前页码
      * @param id          id
