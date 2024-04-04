@@ -12,7 +12,7 @@ import org.springframework.stereotype.Component;
 @Data
 @Component
 @ConfigurationProperties(prefix = "tolearn")
-public class tolearnProperties {
+public class ToLearnProperties {
 
 
 }
