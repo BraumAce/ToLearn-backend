@@ -10,6 +10,7 @@ import java.util.List;
 
 /**
  * 关注服务
+ * @author BraumAce
  */
 public interface FollowService extends IService<Follow> {
 
