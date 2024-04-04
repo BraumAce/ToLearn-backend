@@ -1,4 +1,4 @@
-package com.tolearn.Common;
+package com.toLearn.Common;
 
 /**
  * 错误码
