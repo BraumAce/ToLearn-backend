@@ -11,6 +11,7 @@ import java.util.List;
 
 /**
  * 聊天服务
+ * @author BraumAce
  */
 public interface ChatService extends IService<Chat> {
 
