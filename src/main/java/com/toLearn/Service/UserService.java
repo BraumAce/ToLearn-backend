@@ -145,7 +145,7 @@ public interface UserService extends IService<User> {
     void updateTags(List<String> tags, Long userId);
 
     /**
-     * 更新用户密码
+     * 判断验证码确认更新用户信息
      *
      * @param updateRequest 更新请求
      * @param userId        用户id
@@ -190,7 +190,7 @@ public interface UserService extends IService<User> {
     String afterInsertUser(String key, long userId, HttpServletRequest request);
 
     /**
-     * 管理员寄存器
+     * 管理员注册
      *
      * @param userRegisterRequest 用户注册请求
      * @param request             请求
