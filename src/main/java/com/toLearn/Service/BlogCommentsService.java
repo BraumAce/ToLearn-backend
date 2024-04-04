@@ -1,10 +1,10 @@
-package com.tolearn.Service;
+package com.toLearn.Service;
 
 import com.baomidou.mybatisplus.extension.plugins.pagination.Page;
 import com.baomidou.mybatisplus.extension.service.IService;
-import com.tolearn.Model.Domain.BlogComments;
-import com.tolearn.Model.Request.AddCommentRequest;
-import com.tolearn.Model.VO.BlogCommentsVO;
+import com.toLearn.Model.Domain.BlogComments;
+import com.toLearn.Model.Request.AddCommentRequest;
+import com.toLearn.Model.VO.BlogCommentsVO;
 import org.springframework.transaction.annotation.Transactional;
 
 import java.util.List;
