@@ -1,4 +1,4 @@
-package com.tolearn.Model.Request;
+package com.toLearn.Model.Request;
 
 import io.swagger.annotations.ApiModel;
 import io.swagger.annotations.ApiModelProperty;
@@ -9,7 +9,7 @@ import java.io.Serializable;
 import java.util.List;
 
 /**
- * 队队搜索请求
+ * 队伍搜索请求
  * @author BraumAce
  */
 @Data
