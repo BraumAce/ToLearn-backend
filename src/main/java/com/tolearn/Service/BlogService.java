@@ -9,7 +9,8 @@ import com.tolearn.Model.Request.BlogUpdateRequest;
 import com.tolearn.Model.VO.BlogVO;
 
 /**
-* 博客服务
+ * 博客服务
+ * @author BraumAce
 */
 public interface BlogService extends IService<Blog> {
 
