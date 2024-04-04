@@ -1,12 +1,12 @@
-package com.tolearn.Service;
+package com.toLearn.Service;
 
 import com.baomidou.mybatisplus.extension.plugins.pagination.Page;
 import com.baomidou.mybatisplus.extension.service.IService;
-import com.tolearn.Model.Domain.Blog;
-import com.tolearn.Model.Domain.User;
-import com.tolearn.Model.Request.BlogAddRequest;
-import com.tolearn.Model.Request.BlogUpdateRequest;
-import com.tolearn.Model.VO.BlogVO;
+import com.toLearn.Model.Domain.Blog;
+import com.toLearn.Model.Domain.User;
+import com.toLearn.Model.Request.BlogAddRequest;
+import com.toLearn.Model.Request.BlogUpdateRequest;
+import com.toLearn.Model.VO.BlogVO;
 
 /**
  * 博客服务
