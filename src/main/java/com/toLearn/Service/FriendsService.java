@@ -1,10 +1,10 @@
-package com.tolearn.Service;
+package com.toLearn.Service;
 
 import com.baomidou.mybatisplus.extension.service.IService;
-import com.tolearn.Model.Domain.Friends;
-import com.tolearn.Model.Domain.User;
-import com.tolearn.Model.Request.FriendAddRequest;
-import com.tolearn.Model.VO.FriendsRecordVO;
+import com.toLearn.Model.Domain.Friends;
+import com.toLearn.Model.Domain.User;
+import com.toLearn.Model.Request.FriendAddRequest;
+import com.toLearn.Model.VO.FriendsRecordVO;
 
 import java.util.List;
 import java.util.Set;
