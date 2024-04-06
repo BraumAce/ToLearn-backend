@@ -10,37 +10,25 @@ import org.springframework.stereotype.Component;
  */
 @Data
 @Component
-@ConfigurationProperties(prefix = "super.sms")
+@ConfigurationProperties(prefix = "tolearn.sms")
 public class SMSProperties {
 
-    /**
-     * 地域ID
-     */
+    // 地域ID
     private String regionId;
 
-    /**
-     * 访问密钥
-     */
+    // 访问密钥
     private String accessKey;
 
-    /**
-     * 秘密密钥
-     */
+    // 秘密密钥
     private String secretKey;
 
-    /**
-     * 短信签名名称
-     */
+    // 短信签名名称
     private String signName;
 
-    /**
-     * 短信模板CODE
-     */
+    // 短信模板CODE
     private String templateCode;
 
-    /**
-     * 短信模板变量对应的实际值
-     */
+    // 短信模板变量对应的实际值
     private String templateParam;
 
 }
