@@ -19,6 +19,8 @@ import java.util.List;
 import java.util.Objects;
 import java.util.stream.Collectors;
 
+import static com.toLearn.Constants.SystemConstants.PAGE_SIZE;
+
 /**
  * 关注服务实现
  * @author BraumAce

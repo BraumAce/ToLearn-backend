@@ -5,6 +5,7 @@ import cn.hutool.core.util.RandomUtil;
 import com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import com.toLearn.Common.ErrorCode;
+import com.toLearn.Exception.BusinessException;
 import com.toLearn.Mapper.ChatMapper;
 import com.toLearn.Model.Domain.Chat;
 import com.toLearn.Model.Domain.Team;
@@ -25,6 +26,10 @@ import java.util.Date;
 import java.util.List;
 import java.util.concurrent.TimeUnit;
 import java.util.stream.Collectors;
+
+import static com.toLearn.Constants.ChatConstant.*;
+import static com.toLearn.Constants.RedisConstants.*;
+import static com.toLearn.Constants.UserConstants.ADMIN_ROLE;
 
 /**
  * 聊天服务实现

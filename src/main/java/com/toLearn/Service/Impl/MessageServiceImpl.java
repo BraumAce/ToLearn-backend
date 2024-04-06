@@ -5,6 +5,7 @@ import com.baomidou.mybatisplus.core.conditions.update.LambdaUpdateWrapper;
 import com.baomidou.mybatisplus.extension.plugins.pagination.Page;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import com.toLearn.Common.ErrorCode;
+import com.toLearn.Exception.BusinessException;
 import com.toLearn.Mapper.MessageMapper;
 import com.toLearn.Model.Domain.Message;
 import com.toLearn.Model.Domain.User;
@@ -29,6 +30,9 @@ import java.util.List;
 import java.util.Objects;
 import java.util.Set;
 import java.util.stream.Collectors;
+
+import static com.toLearn.Constants.RedisConstants.*;
+import static com.toLearn.Constants.SystemConstants.PAGE_SIZE;
 
 /**
  * 消息服务实现

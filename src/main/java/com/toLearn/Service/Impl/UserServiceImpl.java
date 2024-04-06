@@ -3,7 +3,6 @@ package com.toLearn.Service.Impl;
 import cn.hutool.core.lang.Pair;
 import cn.hutool.core.lang.UUID;
 import cn.hutool.core.util.StrUtil;
-import cn.hutool.jwt.signers.AlgorithmUtil;
 import com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper;
 import com.baomidou.mybatisplus.core.conditions.query.QueryWrapper;
 import com.baomidou.mybatisplus.core.conditions.update.LambdaUpdateWrapper;
@@ -12,6 +11,7 @@ import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import com.google.gson.Gson;
 import com.google.gson.reflect.TypeToken;
 import com.toLearn.Common.ErrorCode;
+import com.toLearn.Exception.BusinessException;
 import com.toLearn.Mapper.UserMapper;
 import com.toLearn.Model.Domain.Follow;
 import com.toLearn.Model.Domain.User;
@@ -20,6 +20,7 @@ import com.toLearn.Model.Request.UserUpdateRequest;
 import com.toLearn.Model.VO.UserVO;
 import com.toLearn.Service.FollowService;
 import com.toLearn.Service.UserService;
+import com.toLearn.Utils.AlgorithmUtil;
 import lombok.extern.slf4j.Slf4j;
 import org.apache.commons.lang3.StringUtils;
 import org.apache.logging.log4j.util.Strings;
@@ -40,6 +41,10 @@ import java.util.concurrent.TimeUnit;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 import java.util.stream.Collectors;
+
+import static com.toLearn.Constants.RedisConstants.*;
+import static com.toLearn.Constants.SystemConstants.*;
+import static com.toLearn.Constants.UserConstants.*;
 
 /**
  * 用户服务实现

@@ -7,6 +7,7 @@ import com.baomidou.mybatisplus.core.toolkit.CollectionUtils;
 import com.baomidou.mybatisplus.extension.plugins.pagination.Page;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import com.toLearn.Common.ErrorCode;
+import com.toLearn.Exception.BusinessException;
 import com.toLearn.Mapper.TeamMapper;
 import com.toLearn.Model.Domain.Team;
 import com.toLearn.Model.Domain.User;
@@ -20,6 +21,7 @@ import com.toLearn.Service.FollowService;
 import com.toLearn.Service.TeamService;
 import com.toLearn.Service.UserService;
 import com.toLearn.Service.UserTeamService;
+import com.toLearn.Utils.FileUtils;
 import org.apache.commons.lang3.StringUtils;
 import org.springframework.beans.BeanUtils;
 import org.springframework.beans.factory.annotation.Value;
@@ -30,6 +32,9 @@ import org.springframework.web.multipart.MultipartFile;
 import javax.annotation.Resource;
 import java.util.*;
 import java.util.stream.Collectors;
+
+import static com.toLearn.Constants.SystemConstants.PAGE_SIZE;
+import static com.toLearn.Constants.TeamConstants.*;
 
 /**
  * 队伍服务实现
@@ -47,7 +52,7 @@ public class TeamServiceImpl extends ServiceImpl<TeamMapper, Team> implements Te
     @Resource
     private FollowService followService;
 
-    @Value("${super.qiniu.url:null}")
+    @Value("${tolearn.qiniu.url:null}")
     private String qiniuUrl;
 
     @Resource

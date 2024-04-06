@@ -5,6 +5,7 @@ import com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper;
 import com.baomidou.mybatisplus.extension.plugins.pagination.Page;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import com.toLearn.Common.ErrorCode;
+import com.toLearn.Exception.BusinessException;
 import com.toLearn.Mapper.BlogCommentsMapper;
 import com.toLearn.Model.Domain.*;
 import com.toLearn.Model.Enums.MessageTypeEnum;
@@ -26,6 +27,10 @@ import java.util.List;
 import java.util.Objects;
 import java.util.concurrent.TimeUnit;
 import java.util.stream.Collectors;
+
+import static com.toLearn.Constants.RedisConstants.MESSAGE_LIKE_NUM_KEY;
+import static com.toLearn.Constants.RedissonConstant.*;
+import static com.toLearn.Constants.SystemConstants.PAGE_SIZE;
 
 
 /**
@@ -54,7 +59,7 @@ public class BlogCommentsServiceImpl extends ServiceImpl<BlogCommentsMapper, Blo
     @Resource
     private RedissonClient redissonClient;
 
-    @Value("${super.qiniu.url:null}")
+    @Value("${tolearn.qiniu.url:null}")
     private String qiniuUrl;
 
     /**

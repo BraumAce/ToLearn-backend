@@ -6,6 +6,7 @@ import com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import com.google.gson.Gson;
 import com.toLearn.Common.ErrorCode;
+import com.toLearn.Exception.BusinessException;
 import com.toLearn.Mapper.FriendsMapper;
 import com.toLearn.Model.Domain.Friends;
 import com.toLearn.Model.Domain.User;
@@ -27,6 +28,10 @@ import java.util.*;
 import java.util.concurrent.TimeUnit;
 import java.util.concurrent.atomic.AtomicBoolean;
 import java.util.stream.Collectors;
+
+import static com.toLearn.Constants.FriendConstant.*;
+import static com.toLearn.Constants.RedissonConstant.*;
+import static com.toLearn.Utils.StringUtils.stringJsonListToLongSet;
 
 /**
  * 好友服务实现
