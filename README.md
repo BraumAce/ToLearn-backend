@@ -3,32 +3,29 @@
 </p>
 <p align=center>ToLearn一起来学-用户匹配系统</p>
 <p align="center">
-	<a target="_blank" href="https://github.com/BraumAce/ToLearn-backend">
+	<a target="_blank" href="https://github.com/BraumAce/ToLearn-backend"></a>
     	<img src="https://img.shields.io/badge/license-Apache%202.0-blue"></img>
     	<img src="https://img.shields.io/badge/JDK-17-green"></img>
-		<img src="https://img.shields.io/badge/SpringBoot-2.7.5-green"></img>
+	<img src="https://img.shields.io/badge/SpringBoot-2.7.5-green"></img>
         <img src="https://img.shields.io/badge/Node-20.12.2-green"></img>
         <img src="https://img.shields.io/badge/MySQL-8.0-green"></img>
-		<img src="https://img.shields.io/badge/MyBatis-2.2.2-green"></img>
-		<img src="https://img.shields.io/badge/MyBatis%20Plus-3.5.1-green"></img>
+	<img src="https://img.shields.io/badge/MyBatis-2.2.2-green"></img>
+	<img src="https://img.shields.io/badge/MyBatis%20Plus-3.5.1-green"></img>
         <img src="https://img.shields.io/badge/Vue-3.4.21-green"></img>
-		<img src="https://img.shields.io/badge/Vant-3.8.8-green"></img>
+	<img src="https://img.shields.io/badge/Vant-3.8.8-green"></img>
         <img src="https://img.shields.io/badge/vite-5.2.0-green"></img>		
         <img src="https://img.shields.io/badge/Easy%20Excel-3.1.0-green"></img>
-		<img src="https://img.shields.io/badge/knife4j-4.4.0-green"></img>
-		<img src="https://img.shields.io/badge/Gson-2.8.9-green"></img>
-		<img src="https://img.shields.io/badge/Redis-7.0.2-green"></img>
-		<img src="https://img.shields.io/badge/WebSocket-4.5.13-green"></img>
-		<img src="https://img.shields.io/badge/Axios-1.6.8-green"></img>
-	</a>
+	<img src="https://img.shields.io/badge/knife4j-4.4.0-green"></img>
+	<img src="https://img.shields.io/badge/Gson-2.8.9-green"></img>
+	<img src="https://img.shields.io/badge/Redis-7.0.2-green"></img>
+	<img src="https://img.shields.io/badge/WebSocket-4.5.13-green"></img>
+	<img src="https://img.shields.io/badge/Axios-1.6.8-green"></img>
 </p>
 
 
-
-
 ## 项目介绍
-
-    一起来学(ToLearn)，一个前后端分离的用户匹配系统，前端使用 **Vite + Vue3 + Vant4**，后端使用 **SpringBoot 2.7** + **Mybatis-plus**，使用 **WebSocket** 实现实时通信，并结合 **阿里云SDK + 七牛云SDK** 完成短信发送和图片上传。本项目使用 Apache License Version 2.0 开源协议。
+一起来学(ToLearn)，一个前后端分离的用户匹配系统，前端使用 **Vite + Vue3 + Vant4**，后端使用 **SpringBoot 2.7** + **Mybatis-plus**，使用 **WebSocket** 实现实时通信，并结合 **阿里云SDK + 七牛云SDK** 完成短信发送和图片上传。本项目使用 Apache License Version 2.0 开源协议。
+    
 #### 前端地址:
 
 [BraumAce/ToLearn-frontend (github.com)](https://github.com/BraumAce/ToLearn-frontend)
@@ -39,7 +36,7 @@
 
 ## 项目背景
 
-    寻找志同道合的小伙伴一起来学习吧！
+寻找志同道合的小伙伴一起来学习吧！
 
 ## 核心功能
 
