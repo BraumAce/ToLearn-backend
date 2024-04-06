@@ -28,7 +28,7 @@
         role,tags,create_time,
         update_time,is_delete
     </sql>
-    <select id="getRandomUser" resultType="net.zjitc.model.domain.User">
+    <select id="getRandomUser" resultType="com.toLearn.Model.Domain.User">
         SELECT *
         FROM `user`
         WHERE id >= (SELECT floor(RAND() * (SELECT MAX(id) FROM `user`)))
