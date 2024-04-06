@@ -63,7 +63,7 @@ knife4j:
   enable: true
   openapi:
     title: ToLearn接口文档
-    description: "ToLearn用户匹配系统"
+    description: "用户匹配系统"
     email: 1693717911@qq.com
     version: v4.0
     license: Apache 2.0
@@ -73,9 +73,9 @@ knife4j:
         group-name: ToLearn
         api-rule: package
         api-rule-resources:
-          - com.tolearn
+          - com.toLearn
 
-ToLearn:
+tolearn:
   #图片临时目录
   img: /img/
   #定时任务
