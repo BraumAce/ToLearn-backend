@@ -4,22 +4,18 @@
 <p align=center>ToLearn一起来学-用户匹配系统</p>
 <p align="center">
 	<a target="_blank" href="https://github.com/BraumAce/ToLearn-backend"></a>
-    	<img src="https://img.shields.io/badge/license-Apache%202.0-blue"></img>
-    	<img src="https://img.shields.io/badge/JDK-17-green"></img>
+    <img src="https://img.shields.io/badge/license-Apache%202.0-blue"></img>
+    <img src="https://img.shields.io/badge/JDK-17-green"></img>
 	<img src="https://img.shields.io/badge/SpringBoot-2.7.5-green"></img>
-        <img src="https://img.shields.io/badge/Node-20.12.2-green"></img>
-        <img src="https://img.shields.io/badge/MySQL-8.0-green"></img>
+    <img src="https://img.shields.io/badge/Node-20.12.2-green"></img>
+    <img src="https://img.shields.io/badge/MySQL-8.0-green"></img>
 	<img src="https://img.shields.io/badge/MyBatis-2.2.2-green"></img>
 	<img src="https://img.shields.io/badge/MyBatis%20Plus-3.5.1-green"></img>
-        <img src="https://img.shields.io/badge/Vue-3.4.21-green"></img>
-	<img src="https://img.shields.io/badge/Vant-3.8.8-green"></img>
-        <img src="https://img.shields.io/badge/vite-5.2.0-green"></img>		
-        <img src="https://img.shields.io/badge/Easy%20Excel-3.1.0-green"></img>
-	<img src="https://img.shields.io/badge/knife4j-4.4.0-green"></img>
-	<img src="https://img.shields.io/badge/Gson-2.8.9-green"></img>
 	<img src="https://img.shields.io/badge/Redis-7.0.2-green"></img>
 	<img src="https://img.shields.io/badge/WebSocket-4.5.13-green"></img>
-	<img src="https://img.shields.io/badge/Axios-1.6.8-green"></img>
+    <img src="https://img.shields.io/badge/Easy%20Excel-3.1.0-green"></img>
+	<img src="https://img.shields.io/badge/knife4j-4.4.0-green"></img>
+	<img src="https://img.shields.io/badge/Gson-2.8.9-green"></img>
 </p>
 
 
