@@ -1,0 +1,46 @@
+package com.toLearn.Config;
+
+import org.springframework.stereotype.Component;
+
+import javax.servlet.ServletRequestEvent;
+import javax.servlet.ServletRequestListener;
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpSession;
+import javax.websocket.HandshakeResponse;
+import javax.websocket.server.HandshakeRequest;
+import javax.websocket.server.ServerEndpointConfig;
+
+/**
+ * http会话配置
+ * @author BraumAce
+ */
+@Component
+public class HttpSessionConfig extends ServerEndpointConfig.Configurator implements ServletRequestListener {
+
+    /**
+     * 请求初始化
+     * @param sre 请求事件
+     */
+    @Override
+    public void requestInitialized(ServletRequestEvent sre) {
+        //获取HttpSession，将所有request请求都携带上HttpSession
+        HttpSession session = ((HttpServletRequest) sre.getServletRequest()).getSession();
+    }
+
+    /**
+     * 修改握手
+     * @param sec      结束点配置
+     * @param request  请求
+     * @param response 响应
+     */
+    @Override
+    public void modifyHandshake(ServerEndpointConfig sec, HandshakeRequest request, HandshakeResponse response) {
+        // 获取session
+        HttpSession httpSession = (HttpSession) request.getHttpSession();
+        if (httpSession != null) {
+            // session放入serverEndpointConfig
+            sec.getUserProperties().put(HttpSession.class.getName(), httpSession);
+        }
+        super.modifyHandshake(sec, request, response);
+    }
+}
